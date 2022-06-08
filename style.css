@@ -30,20 +30,13 @@ body{
     justify-content: center;
     padding-right: 3rem;
     padding-top: 2px;
-    
-   
-    
-    
 }
 
 .contenedor-parrafo{
-    
     /* font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif; */
     margin: auto;
     text-align:left;
     max-width: 500px;
- 
-    
 }
 
 
@@ -69,7 +62,6 @@ a{
 .color-parrafo{
     color: #44307a;
     font-weight: 400;
-    
 }
 
 .subtitle {
@@ -84,7 +76,6 @@ a{
     flex-wrap: wrap;
 }
 .container-principios {
-    
     max-width: 82rem;
     width: 100%;
     margin: 0 auto;
@@ -97,8 +88,6 @@ a{
     max-width: 416px;
     color: var(--primary);
     font-weight: 600;
-    
-    
 }
 
 .card-principio h2 {
@@ -110,19 +99,16 @@ a{
 
 @media (max-width: 500px) {
     .card-principio {
-        color: red;
+        /* color: red; */
     }
 }
 
 .container-directivo {
-
     max-width: 82rem;
     width: 100%;
     margin: 0 auto;
     padding-left: 4rem;
     padding-top: 12rem;
-
-
 }
 
 .Equipo {
@@ -140,10 +126,10 @@ a{
 
 .lu{
     max-width: 95px;
+    border-radius: 50%;
 }
 
 .container-alianzas{
-
     max-width: 82rem;
     width: 100%;
     margin: 0 auto;
@@ -151,9 +137,6 @@ a{
     padding-top: 12rem;
     display: flex;
     flex-wrap: wrap;
-    
-   
-   
 }
 
 .color-caminamos{
@@ -162,22 +145,16 @@ a{
     color: var(--primary);
     font-weight: bold;
     font-size: 35px;
-    
-    
 }
 
 .color-alianzas{
     color: var(--primary);
-    opacity: .48;
-
-
+    opacity: 0.48;
 }
 
 .img-contenedor{
     max-width: 120px;
     padding-top: 8rem;
     padding-left: 5rem;
-    
-
 }
 
