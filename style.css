@@ -74,6 +74,8 @@ a{
 
 .subtitle {
     font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+    font-size: 30px;
+    padding-bottom: 3rem;
 }
 
 .card-container {
@@ -82,15 +84,21 @@ a{
     flex-wrap: wrap;
 }
 .container-principios {
+    
     max-width: 82rem;
     width: 100%;
     margin: 0 auto;
+    padding-left: 4rem;
+    padding-top: 15rem;
 }
 
 .card-principio {
     width: 100%;
     max-width: 416px;
     color: var(--primary);
+    font-weight: 600;
+    
+    
 }
 
 .card-principio h2 {
@@ -105,3 +113,71 @@ a{
         color: red;
     }
 }
+
+.container-directivo {
+
+    max-width: 82rem;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 4rem;
+    padding-top: 12rem;
+
+
+}
+
+.Equipo {
+    font-family: CabifyCircular,Avenir Next,Avenir,Segoe UI,sans-serif;
+    font-size: 30px;
+}
+
+.card-principio-equipo{
+    width: 100%;
+    max-width: 516px;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.lu{
+    max-width: 95px;
+}
+
+.container-alianzas{
+
+    max-width: 82rem;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 4rem;
+    padding-top: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+   
+}
+
+.color-caminamos{
+    width: 100%;
+    max-width: 516px;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 35px;
+    
+    
+}
+
+.color-alianzas{
+    color: var(--primary);
+    opacity: .48;
+
+
+}
+
+.img-contenedor{
+    max-width: 120px;
+    padding-top: 8rem;
+    padding-left: 5rem;
+    
+
+}
+
