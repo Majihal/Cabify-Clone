@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 24px 56px;
+}
+
+.logo {
+  width: 96px;
+  margin-right: 64px;
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+  /* margin: auto 0; */
+  justify-content: space-between;
+  /* background: red; */
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  nav {
+    padding: 0;
+    padding-left: 16px;
+  }
+  
+  .nav-container {
+    
+  }
+
+  .header-nav {
+    width: 174px;
+  }
+  .logo {
+    width: 72px;
+  }
+}
