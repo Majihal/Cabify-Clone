@@ -99,7 +99,7 @@ i.fa-angle-down {
 } */
 
 
-.dropdown-menu {
+.dropdown-container {
   display: none;
 }
 /* MOBILE NAV  */
@@ -173,6 +173,11 @@ i.fa-angle-down {
   i {
     color: var(--primary-color);
   }
+  
+  .dropdown-container {
+    display: block;
+  }
+
   .btn-login {
     color: var(--primary-color);
     display: block;
