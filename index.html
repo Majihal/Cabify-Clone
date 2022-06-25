@@ -1,186 +1,283 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cabify</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <main> 
-        <nav class="navegador">
-            <ul class="navegador">
-                <li>
-                    <a href=https://cabify.com/es/conductores>Conductores</a>
-                </li>
-
-                <li>
-                    <a href=https://cabify.com/es/empresas>Empresas</a>
-                </li>
-
-                <li>
-                    <a href=https://cabify.com/es/pasajeros>Pasajeros</a>
-                </li>
-
-                <li>
-                    <a href=https://cabify.com/es/partners>Partners</a>
-                </li>
-
-                <li>
-                    <a href=https://cabify.com/es/seguridad>Seguridad</a>
-                </li>
-
-            </ul>
-            <ul>
-                <li>iniciar sesion</li>
-
-                <li> Registrate
-                    <select name="" id="">
-                        <option value="opcion1">Como conductor</option>
-                        <option value="opcion2"></option>
-                    </select>
-                </li>
-            </ul>
-        </nav>
-
-
-        <div class="titulo" >
-            <h1 >Nuestra misión nos apasiona. Y también el viaje para llegar hasta allá.</h1>
-        </div>
-
-        <div class="contenedor">
-            <div class="contenedor-parrafo">
-                <h2>Lo que nos mueve</h2>   
-                 <p class="color-parrafo">En Cabify conectamos usuarios particulares y empresas con las formas de transporte que mejor se adaptan a sus necesidades. Con el objetivo de hacer de las ciudades mejores lugares para vivir, hemos creado un modelo de negocio sostenible, guiado por principios básicos de ética que nos ayudan a ser cada vez más comprometidos. Más que movilidad como servicio (MaaS), buscamos ofrecer un futuro de nuevas posibilidades a las más de 40 ciudades en que estamos, respetando a las personas y al medioambiente.</p>
-            </div>    
-            <div class="contenedor-imagen">
-                <img class="image" src="https://public.cabifil.es/475edc6c5fb676c291c76c42ba367366.jpg" alt="logo">    
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="nav-container">
+          <div class="header-nav">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/53/Cabify-Logo-Moradul-RGB.png"
+              alt=""
+              class="logo"
+            />
+            <div class="menu-desktop">
+              <ul class="menu-list">
+                <li><a>Conductores</a></li>
+                <li><a>Empresas</a></li>
+                <li><a>Pasajeros</a></li>
+                <li><a>Partners</a></li>
+                <li><a>Seguridad</a></li>
+                <li class="login">Inicia Sesión</li>
+              </ul>
             </div>
+          </div>
+          <div class="menu-mobile">
+            <ul class="menu-mobile-list">
+              <li>
+                <button>
+                  Regístrate <i class="fa-solid fa-angle-down"></i>
+                </button>
+              </li>
+              <li class="menu-action">
+                <button>Menú <i class="fa-solid fa-angle-down"></i></button>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+      <nav class="dropdown-container">
+        <ul class="dropdown-menu">
+          <li>
+            <a href="#">Conductores <i class="fa-solid fa-angle-right"></i></a>
+          </li>
+          <li>
+            <a href="#">Empresas<i class="fa-solid fa-angle-right"></i></a>
+          </li>
+          <li>
+            <a href="#">Pasajeros<i class="fa-solid fa-angle-right"></i></a>
+          </li>
+          <li>
+            <a href="#">Partners<i class="fa-solid fa-angle-right"></i></a>
+          </li>
+          <li>
+            <a href="#">Seguridad<i class="fa-solid fa-angle-right"></i></a>
+          </li>
+          <li>
+            <a href="#"
+              >Centro de ayuda<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./register.html" class="btn-login">Registrarse</a>
+          </li>
+        </ul>
+      </nav>
 
+      <div class="titulo">
+        <h1>
+          Nuestra misión nos apasiona. Y también el viaje para llegar hasta
+          allá.
+        </h1>
+      </div>
 
-        <div class="contenedor">
-            <div class="contenedor-imagen">
-                <img class="image" src="https://public.cabifil.es/b190d11d0cb2bb855f048f195d16faba.jpg" alt="logo">    
-            </div>
-            <div class="contenedor-parrafo">
-                <h2>Nuestro viaje</h2>   
-                <p class="color-parrafo">Nacimos en 2011, en Madrid, y nos extendimos, a los pocos meses, a América Latina. Actualmente operamos en Argentina, Chile, Colombia, Ecuador, España, México, Perú y Uruguay. En 2018 reafirmamos nuestro compromiso con la diversidad y la igualdad al unirnos al Pacto Mundial de las Naciones Unidas, el mayor proyecto de Responsabilidad Social Corporativa del mundo. Hoy contamos con aproximadamente mil empleados repartidos en oficinas de España y América Latina y ofrecemos oportunidades de autoempleo a cientos de miles de socios conductores, apostando por el talento local..</p>
-            </div>    
-                
+      <div class="contenedor">
+        <div class="contenedor-parrafo">
+          <h2>Lo que nos mueve</h2>
+          <p class="color-parrafo">
+            En Cabify conectamos usuarios particulares y empresas con las formas
+            de transporte que mejor se adaptan a sus necesidades. Con el
+            objetivo de hacer de las ciudades mejores lugares para vivir, hemos
+            creado un modelo de negocio sostenible, guiado por principios
+            básicos de ética que nos ayudan a ser cada vez más comprometidos.
+            Más que movilidad como servicio (MaaS), buscamos ofrecer un futuro
+            de nuevas posibilidades a las más de 40 ciudades en que estamos,
+            respetando a las personas y al medioambiente.
+          </p>
         </div>
+        <div class="contenedor-imagen">
+          <img
+            class="image"
+            src="https://public.cabifil.es/475edc6c5fb676c291c76c42ba367366.jpg"
+            alt="logo"
+          />
+        </div>
+      </div>
+
+      <div class="contenedor">
+        <div class="contenedor-imagen">
+          <img
+            class="image"
+            src="https://public.cabifil.es/b190d11d0cb2bb855f048f195d16faba.jpg"
+            alt="logo"
+          />
+        </div>
+        <div class="contenedor-parrafo">
+          <h2>Nuestro viaje</h2>
+          <p class="color-parrafo">
+            Nacimos en 2011, en Madrid, y nos extendimos, a los pocos meses, a
+            América Latina. Actualmente operamos en Argentina, Chile, Colombia,
+            Ecuador, España, México, Perú y Uruguay. En 2018 reafirmamos nuestro
+            compromiso con la diversidad y la igualdad al unirnos al Pacto
+            Mundial de las Naciones Unidas, el mayor proyecto de Responsabilidad
+            Social Corporativa del mundo. Hoy contamos con aproximadamente mil
+            empleados repartidos en oficinas de España y América Latina y
+            ofrecemos oportunidades de autoempleo a cientos de miles de socios
+            conductores, apostando por el talento local..
+          </p>
+        </div>
+      </div>
     </main>
     <section>
-        <div class="container-principios">
-            <h2 class="primary-color subtitle">Los principios que nos guían</h2>
-            <div class="card-container">
-                <div class="card-principio">
-                    <img src="https://public.cabifil.es/a908bf7693b8b80491683a2fbf4d9b5c.svg" alt=""> 
-                    <h2>Actuamos como co-propietarios</h2>
-                    <p>Sentimos orgullo de lo que hemos creado.</p>
-                </div>
-                <div class="card-principio">
-                    <img src="https://public.cabifil.es/ab03df3ba3ef48a93c0d3fa36fcb64a9.svg" alt=""> 
-                    <h2>Actuamos como co-propietarios</h2>
-                    <p>Sentimos orgullo de lo que hemos creado.</p>
-                </div>
-                <div class="card-principio">
-                    <img src="https://public.cabifil.es/93234afcffd2ac4806cee7fa53d7b254.svg" alt=""> 
-                    <h2>Actuamos como co-propietarios</h2>
-                    <p>Sentimos orgullo de lo que hemos creado.</p>
-                </div>
-                <div class="card-principio">
-                    <img src="https://public.cabifil.es/084decb953b5f79e849088d21dfb0e3f.svg" alt=""> 
-                    <h2>Actuamos como co-propietarios</h2>
-                    <p>Sentimos orgullo de lo que hemos creado.</p>
-                </div>
-                <div class="card-principio">
-                    <img src="https://public.cabifil.es/a38a328a8f25c50bda40332d110916d7.svg" alt=""> 
-                    <h2>Actuamos como co-propietarios</h2>
-                    <p>Sentimos orgullo de lo que hemos creado.</p>
-                </div>
-                <div class="card-principio">
-                    <img src="https://public.cabifil.es/6239fcdbceb2befdf8457ff05ee3a5a9.svg" alt=""> 
-                    <h2>Actuamos como co-propietarios</h2>
-                    <p>Sentimos orgullo de lo que hemos creado.</p>
-                </div>
-                <div class="card-principio">
-                    <img src="https://public.cabifil.es/f57ed3effdaca29c5156819a8645ec11.svg" alt=""> 
-                    <h2>Actuamos como co-propietarios</h2>
-                    <p>Sentimos orgullo de lo que hemos creado.</p>
-                </div>
-                <div class="card-principio">
-                    <img src="https://public.cabifil.es/5c6554080ef4dcfd2489d3f1e5c346e0.svg" alt=""> 
-                    <h2>Actuamos como co-propietarios</h2>
-                    <p>Sentimos orgullo de lo que hemos creado.</p>
-                </div>
-            </div>
+      <div class="container-principios">
+        <h2 class="primary-color subtitle">Los principios que nos guían</h2>
+        <div class="card-container">
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/a908bf7693b8b80491683a2fbf4d9b5c.svg"
+              alt=""
+            />
+            <h2>Actuamos como co-propietarios</h2>
+            <p>Sentimos orgullo de lo que hemos creado.</p>
+          </div>
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/ab03df3ba3ef48a93c0d3fa36fcb64a9.svg"
+              alt=""
+            />
+            <h2>Actuamos como co-propietarios</h2>
+            <p>Sentimos orgullo de lo que hemos creado.</p>
+          </div>
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/93234afcffd2ac4806cee7fa53d7b254.svg"
+              alt=""
+            />
+            <h2>Actuamos como co-propietarios</h2>
+            <p>Sentimos orgullo de lo que hemos creado.</p>
+          </div>
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/084decb953b5f79e849088d21dfb0e3f.svg"
+              alt=""
+            />
+            <h2>Actuamos como co-propietarios</h2>
+            <p>Sentimos orgullo de lo que hemos creado.</p>
+          </div>
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/a38a328a8f25c50bda40332d110916d7.svg"
+              alt=""
+            />
+            <h2>Actuamos como co-propietarios</h2>
+            <p>Sentimos orgullo de lo que hemos creado.</p>
+          </div>
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/6239fcdbceb2befdf8457ff05ee3a5a9.svg"
+              alt=""
+            />
+            <h2>Actuamos como co-propietarios</h2>
+            <p>Sentimos orgullo de lo que hemos creado.</p>
+          </div>
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/f57ed3effdaca29c5156819a8645ec11.svg"
+              alt=""
+            />
+            <h2>Actuamos como co-propietarios</h2>
+            <p>Sentimos orgullo de lo que hemos creado.</p>
+          </div>
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/5c6554080ef4dcfd2489d3f1e5c346e0.svg"
+              alt=""
+            />
+            <h2>Actuamos como co-propietarios</h2>
+            <p>Sentimos orgullo de lo que hemos creado.</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <section>
+      <div class="container-directivo">
+        <h2 class="primary-color Equipo">Equipo directivo</h2>
+        <p class="card-principio-equipo">
+          Las personas que diseñan el camino para transformar la movilidad en
+          nuestras ciudades.
+        </p>
+        <div class="card-container">
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/fb77f2693b25f9b2be0c05315cb7ce72.png"
+              alt=""
+            />
+            <h2>Juan de Antonio Rubio</h2>
+            <p>CEO & Founder</p>
+          </div>
 
-        <div class= "container-directivo">
-            <h2 class="primary-color Equipo">Equipo directivo</h2>
-            <p class="card-principio-equipo">Las personas que diseñan el camino para transformar la movilidad en nuestras ciudades.</p>
-            <div class="card-container">
-                <div class=card-principio>
-                    <img src="https://public.cabifil.es/fb77f2693b25f9b2be0c05315cb7ce72.png" alt="">
-                    <h2>Juan de Antonio Rubio</h2>
-                    <p>CEO & Founder</p>
-                </div>
+          <div class="card-principio">
+            <img
+              class="lu"
+              src="https://pps.whatsapp.net/v/t61.24694-24/216481318_515729616305832_6700311712286311456_n.jpg?ccb=11-4&oh=01_AVxBJbHveAN2wDm1YvqOR7QRbpMWKw2FbB_A8hKNyOUXAg&oe=62AFE9F3"
+              alt=""
+            />
+            <h2>Lucas Pallero</h2>
+            <p>CEO & Founder</p>
+          </div>
 
-                <div class=card-principio>
-                    <img class="lu" src="https://pps.whatsapp.net/v/t61.24694-24/216481318_515729616305832_6700311712286311456_n.jpg?ccb=11-4&oh=01_AVxBJbHveAN2wDm1YvqOR7QRbpMWKw2FbB_A8hKNyOUXAg&oe=62AFE9F3" alt="">
-                    <h2>Lucas Pallero</h2>
-                    <p>CEO & Founder</p>
-                </div>
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/fb77f2693b25f9b2be0c05315cb7ce72.png"
+              alt=""
+            />
+            <h2>Juan de Antonio Rubio</h2>
+            <p>CEO & Founder</p>
+          </div>
 
-                <div class=card-principio>
-                    <img src="https://public.cabifil.es/fb77f2693b25f9b2be0c05315cb7ce72.png" alt="">
-                    <h2>Juan de Antonio Rubio</h2>
-                    <p>CEO & Founder</p>
-                </div>
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/fb77f2693b25f9b2be0c05315cb7ce72.png"
+              alt=""
+            />
+            <h2>Juan de Antonio Rubio</h2>
+            <p>CEO & Founder</p>
+          </div>
 
-                <div class=card-principio>
-                    <img src="https://public.cabifil.es/fb77f2693b25f9b2be0c05315cb7ce72.png" alt="">
-                    <h2>Juan de Antonio Rubio</h2>
-                    <p>CEO & Founder</p>
-                </div>
-
-                <div class=card-principio>
-                    <img src="https://public.cabifil.es/fb77f2693b25f9b2be0c05315cb7ce72.png" alt="">
-                    <h2>Juan de Antonio Rubio</h2>
-                    <p>CEO & Founder</p>
-                </div>
-            </div>
-         </div>
+          <div class="card-principio">
+            <img
+              src="https://public.cabifil.es/fb77f2693b25f9b2be0c05315cb7ce72.png"
+              alt=""
+            />
+            <h2>Juan de Antonio Rubio</h2>
+            <p>CEO & Founder</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section>
-        <div class="container-alianzas">
-            <div>
-                <p class="color-alianzas">ALIANZAS PARA EL CAMBIO</p>
-                <h2 class= "color-caminamos">Caminamos juntos para transformar nuestras comunidades</h2>
-            </div>
-            <div>
-                <img class="img-contenedor" src="https://public.cabifil.es/3e6efa02609af2f16fb2154a5232558e.png" alt="">
-                <img class="img-contenedor" src="https://public.cabifil.es/842cf0302ece2199ebb7d617f347242b.png" alt="">
-                <img class="img-contenedor" src="https://public.cabifil.es/09b708fa2cf8db8ba70adef32b556565.jpg" alt="">
-
-            </div>            
-
-
+      <div class="container-alianzas">
+        <div>
+          <p class="color-alianzas">ALIANZAS PARA EL CAMBIO</p>
+          <h2 class="color-caminamos">
+            Caminamos juntos para transformar nuestras comunidades
+          </h2>
         </div>
-      
-
-
-
-
+        <div>
+          <img
+            class="img-contenedor"
+            src="https://public.cabifil.es/3e6efa02609af2f16fb2154a5232558e.png"
+            alt=""
+          />
+          <img
+            class="img-contenedor"
+            src="https://public.cabifil.es/842cf0302ece2199ebb7d617f347242b.png"
+            alt=""
+          />
+          <img
+            class="img-contenedor"
+            src="https://public.cabifil.es/09b708fa2cf8db8ba70adef32b556565.jpg"
+            alt=""
+          />
+        </div>
+      </div>
     </section>
-
-
-
-
-</body>
+  </body>
 </html>
