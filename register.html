@@ -12,59 +12,18 @@
     />
     <link rel="stylesheet" href="./css//register.css" />
     <title>Register</title>
+    <style>
+      .success {
+        color: green;
+        border: 1px solid green;
+      }
+    </style>
   </head>
   <body>
-    <h1>Regístrate</h1>
-    <p>Crear una cuenta nueva</p>
-    <form action="./thank.html" method="POST">
-      <div class="mb-3">
-        <label for="nombre" class="form-label">Nombre</label>
-        <input
-          class="form-control"
-          id="nombre"
-          type="text"
-          name="nombre"
-          placeholder="nombre"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="apellido" class="form-label">Apellido</label>
-        <input
-          class="form-control"
-          id="apellido"
-          type="text"
-          name="apellido"
-          placeholder="Apellido"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="password">Contraseña</label>
-        <input
-          class="form-control"
-          id="password"
-          type="password"
-          name="password"
-          placeholder="Contraseña"
-          required
-        />
-      </div>
-      <div class="mb-3">
-        <label for="email" class="form-label">Email</label>
-        <input
-          class="form-control"
-          id="email"
-          type="email"
-          name="email"
-          placeholder="email"
-          required
-        />
-      </div>
-      <div>
-        <input type="submit" value="Enviar" class="btn btn-primary" />
-      </div>
-    </form>
+    <input id="username" type="number" />
+    <input type="text" id="result" />
+
+    <p id="textResult"></p>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
@@ -76,5 +35,50 @@
       integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      const element = document.querySelector("#username");
+
+      element.value;
+      // console.log(element.value);
+      // element.value = "fran";
+
+      function saludar(x) {
+        console.log("Hola " + x + "!!");
+      }
+
+      function add(a, b) {
+        return a + b;
+      }
+
+      // let num1 = 5;
+      // let num2 = 8;
+
+      // const result = add(num1, num2);
+
+      // console.log(result);
+
+      // saludar("Lucas");
+      // saludar("Matt");
+      // saludar("Fran");
+      // saludar("Lucas");
+      // saludar("Lucas");
+      // saludar("Lucas");
+      // saludar("Lucas");
+      // saludar("Lucas");
+      // saludar("Lucas");
+      document
+        .querySelector("#username")
+        .addEventListener("keyup", function (event) {
+          const num1 = Number(event.target.value);
+          const result = add(num1, 5);
+
+          const inputResult = document.querySelector("#result");
+          inputResult.value = result;
+          inputResult.className = "success";
+          document.querySelector("#textResult").innerHTML =
+            "Tu resultado es : " + result;
+        });
+    </script>
   </body>
 </html>

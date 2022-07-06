@@ -72,5 +72,18 @@
     </nav>
 
     <h2>Cabify</h2>
+    <script>
+      document
+        .querySelector(".menu-action")
+        .addEventListener("click", function (event) {
+          const containerNav = document.querySelector(".dropdown-container");
+
+          if (containerNav.className.split(" ")[1] !== "hide") {
+            containerNav.classList.add("hide");
+          } else {
+            containerNav.classList.remove("hide");
+          }
+        });
+    </script>
   </body>
 </html>
